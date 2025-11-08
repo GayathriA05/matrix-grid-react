@@ -1,59 +1,59 @@
+# Matrix / Grid Visualizations (React + Vite)
 
-# matrix-grid-react
+[![Live Demo](https://img.shields.io/badge/Live-Demo-Visit-success?style=for-the-badge)](https://matrix-grid-react.vercel.app/)
 
-A tiny React project (Vite + plain CSS) showcasing:
+A simple yet practical project demonstrating **static and interactive matrix/grid layouts** built using **React + Vite** with pure CSS Grid.  
+This project showcases how to build a dynamic, clickable grid with multi-select functionality and a Reset option.
 
-- **A) Simple Grid** — static CSS Grid layout  
-- **B) Interactive Matrix** — multi-select cells + Reset button
+---
 
-Built by **[@GayathriA05](https://github.com/GayathriA05)**.
+## 📸 Preview
 
-## ▶️ Quick Start
+> Screenshot of the Interactive Grid section
+
+<p align="center">
+  <img src="./assets/app-preview.png" alt="App Preview" width="700" />
+</p>
+
+---
+
+## 📍 Why I Built This Project
+
+I created this project to strengthen my understanding of:
+
+- CSS Grid layout system  
+- State management in React  
+- Handling multi-dimensional data structures in UI  
+- Deploying React projects with Vite  
+
+This also serves as a clean reference for anyone learning how to build grid-based interactive UI components.
+
+---
+
+## ✨ Features
+
+✅ **Simple Static Grid** – Built using pure CSS Grid  
+✅ **Interactive Matrix Grid** – Click to select/deselect cells  
+✅ **Multi-select Support**  
+✅ **Reset Button** to clear selections  
+✅ Displays **count of selected cells**  
+✅ Fully responsive and beginner-friendly code  
+
+---
+
+## 🧠 Tech Stack
+
+- **React 18**
+- **Vite**
+- **JavaScript (ES6+)**
+- **CSS Grid**
+- **Vercel** for deployment
+
+---
+
+## 🚀 Run Locally
+
+Clone the project:
 
 ```bash
-# 1) Install deps
-npm install
-
-# 2) Run dev server
-npm run dev
-
-# 3) Build for production
-npm run build && npm run preview
-```
-
-## 🧱 Tech
-
-- React 18 + Vite
-- CSS Grid (no Tailwind)
-- Accessible interactions (keyboard toggle via Space/Enter)
-
-## 📁 Structure
-
-```
-matrix-grid-react/
-├─ index.html
-├─ package.json
-├─ vite.config.js
-├─ src/
-│  ├─ main.jsx
-│  ├─ App.jsx
-│  ├─ App.css
-│  ├─ index.css
-│  └─ components/
-│     ├─ SimpleGrid.jsx
-│     └─ InteractiveMatrix.jsx
-```
-
-## 💡 Notes
-
-- `SimpleGrid.jsx` uses CSS Grid to render an `rows × cols` static layout.
-- `InteractiveMatrix.jsx` keeps a 2D boolean matrix in state, lets you **multi-select** cells, and **Reset**.
-- The project uses **plain CSS** for clarity and portability.
-
-## 🚀 Deploy
-
-- Push this folder to your GitHub as `matrix-grid-react`.
-- One-click deploy to **Vercel** or **Netlify** using your repo.
-- For GitHub Pages, build and set the `docs` folder (or use a GH Actions workflow).
-```
-
+git clone https://github.com/GayathriA05/matrix-grid-react.git
